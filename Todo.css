@@ -1,0 +1,83 @@
+.Todo .ol {
+    list-style: none;
+}
+
+.Todo li {
+    padding:8px;
+    margin:5px;
+    text-align:left;
+}
+
+.Todo li:hover {
+    background-color:rgb(27,25,25);
+    cursor:pointer;
+}
+
+.Todo {
+    width:95%;
+}
+
+.Todo hr {
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+
+.Todo .completetask {
+    font-size:20px;
+    color:green;
+    text-decoration:line-through;
+}
+
+.Todo .duetask {
+    font-size:20px;
+    color:red;
+
+}
+
+.Todo .do {
+    height:25px;
+    width:25px;
+    background-color:lightgrey;
+    border-radius:50%;
+    display:inline-block;
+    margin-right:20px;
+    font-size:20px;
+    color:black;
+    text-shadow:1px 1px 1px blue;
+}
+
+.Todo .do:hover {
+    background-color:lightblue;
+}
+
+.Todo .cross {
+    height:25px;
+    width:25px;
+    background-color:red;
+    color:black;
+    border-radius:50%;
+    display:inline-block;
+    margin-right:20px;
+    font-size:20px;
+}
+
+.Todo .cross:hover {
+    background-color: darkred;
+}
+
+.Todo .Edit {
+    color:red;
+    font-size:15px;
+    padding:0;
+    float:right;
+    background-color:rgb(40,40,40);
+    margin-right: -20px;
+}
+
+.Todo .Edit:hover {
+    border:2px solid darkred;
+    cursor:pointer;
+    background-color:rgb(27,25,25);
+
+}
